@@ -14,7 +14,7 @@ export default function App() {
     });
   };
 
-  
+
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Benvindo</Text>
@@ -23,7 +23,7 @@ export default function App() {
         <Botao title="-" onPress= {() => menos()} estilo={styles.btMenos}
         />
         <Botao title="+" onPress={() => mais()} estilo={styles.btnMais} />
-         </View>
+      </View>
     </View>
   );
 }
